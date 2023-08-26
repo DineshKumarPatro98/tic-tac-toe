@@ -1,7 +1,7 @@
 console.log("Welcomto MyTic Tac Toe..");
 let bmusic = new Audio("");
-let turnm = new Audio("ting.mp3");
-let overm = new Audio("gameover.mp3");
+let turnm = new Audio("./assests/ting.mp3");
+let overm = new Audio("./assests/gameover.mp3");
 let turn = "X";
 let isgameOver = false;
 
