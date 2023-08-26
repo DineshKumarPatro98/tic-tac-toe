@@ -1,89 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Zen+Dots&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Zen+Dots&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-nav{
-    background-color: #b615ac;
-    color: white;
-}
-nav ul{
-    list-style-type: none;
-    height: 44px;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    font-family: 'Zen Dots', cursive;
-    padding: 12px;
-}
-.gamecontainer{
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-#BackgroundImage{
-    content: "";
-    position: absolute;
-    background: url('bg.jpg.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 1;
-}
-.conatiner{
-    display: grid;
-    grid-template-rows: repeat(3, 10vw);
-    grid-template-columns: repeat(3,10vw);
-    font-family: 'Zen Dots', cursive;
-    margin-top: 40px;
-}
-.box{
-    border: 2px solid red;     
-    font-size: 8vw;display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-.box:hover{
-    background-color: rgb(85, 85, 180);
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.gameinfo{
-    padding: 0 50px;
-    font-family: 'Zen Dots', cursive;
-    margin-top: 40px;
-    color: #7a7ab9;
+nav {
+  background-color: #b615ac;
+  color: white;
 }
-.gameinfo button{
-    margin: 15px;
-    padding: 5px;
-    height: 45px;
-    width: 100px;
-    border-radius: 9px;
-    background-color: rgb(129 40 123);
-    font-size: 20px;
-    color: white;
-    font-family: 'Zen Dots', cursive;
-    cursor: pointer;
+nav ul {
+  list-style-type: none;
+  height: 44px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  font-family: "Zen Dots", cursive;
+  padding: 12px;
+}
+.gamecontainer {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+#BackgroundImage {
+  content: "";
+  position: absolute;
+  background: url("bg.jpg.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+.conatiner {
+  display: grid;
+  grid-template-rows: repeat(3, 10vw);
+  grid-template-columns: repeat(3, 10vw);
+  font-family: "Zen Dots", cursive;
+  margin-top: 40px;
+}
+.box {
+  border: 2px solid red;
+  font-size: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.box:hover {
+  background-color: rgb(85, 85, 180);
 }
 
-.imgbox img{
-    width: 0;
-    transition: width 1s ease-in-out;
+.gameinfo {
+  padding: 0 50px;
+  font-family: "Zen Dots", cursive;
+  margin-top: 40px;
+  color: #7a7ab9;
+}
+.gameinfo button {
+  margin: 15px;
+  padding: 5px;
+  height: 45px;
+  width: 100px;
+  border-radius: 9px;
+  background-color: rgb(129 40 123);
+  font-size: 20px;
+  color: white;
+  font-family: "Zen Dots", cursive;
+  cursor: pointer;
 }
 
-.br-0{
-    border-right: none;
+.imgbox img {
+  width: 0;
+  transition: width 1s ease-in-out;
 }
-.bl-0{
-    border-left: none;
+
+.br-0 {
+  border-right: none;
 }
-.bt-0{
-    border-top: none;
+.bl-0 {
+  border-left: none;
 }
-.bb-0{
-    border-bottom: none;
+.bt-0 {
+  border-top: none;
+}
+.bb-0 {
+  border-bottom: none;
 }
